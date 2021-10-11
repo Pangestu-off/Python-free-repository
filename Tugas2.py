@@ -33,10 +33,10 @@ def Lionair():
            
 def pembayaran():
     menuju = input("Pilih Tujuan :")
-    if(menuju == "1"):
+    if(menuju == "2"):
         print("Harga : Rp. 900.000") 
         harga = 900000
-    if(menuju == "2"):
+    if(menuju == "3"):
         print("Harga : Rp. 800.000")
         harga = 800000
     bayar = int(input("Masukkan Nominal Duit Anda :"))
