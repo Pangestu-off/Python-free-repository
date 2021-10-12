@@ -21,12 +21,12 @@ while True:
     _,frame = cap.read(1)
 
     hsv = cv2.cvtColor(frame,cv2.COLOR_BGR2HLS)
-    l_h = cv2.getTrackbarPos("L - H", "Trackbar")
-    l_s = cv2.getTrackbarPos("L - S", "Trackbar")
-    l_v = cv2.getTrackbarPos("L - V", "Trackbar")
-    u_h = cv2.getTrackbarPos("U - H", "Trackbar")
-    u_s = cv2.getTrackbarPos("U - S", "Trackbar")
-    u_v = cv2.getTrackbarPos("U - V", "Trackbar")
+    l_h = cv2.getTrackbarPos("L - H", "Trackbar") #trackbar data
+    l_s = cv2.getTrackbarPos("L - S", "Trackbar")   #trackbar data
+    l_v = cv2.getTrackbarPos("L - V", "Trackbar")   #trackbar data
+    u_h = cv2.getTrackbarPos("U - H", "Trackbar")   #trackbar data
+    u_s = cv2.getTrackbarPos("U - S", "Trackbar")   #trackbar data
+    u_v = cv2.getTrackbarPos("U - V", "Trackbar")   #trackbar data
     lower_oren = np.array([l_h,l_s,l_v])
     upper_oren = np.array([u_h,u_s,u_v])
 
