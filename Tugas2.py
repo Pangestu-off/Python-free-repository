@@ -18,8 +18,8 @@ def menumaskapai():
 
 def garuda():
     print("***********************")
-    print("[1] Jakarta - Palembang")
-    print("[2] Batam - Jakarta")
+    print("[1] Jakarta - BANDUNG")
+    print("[2] BANDUNG - Jakarta")
     print("***********************")
     pembayaran()
   
