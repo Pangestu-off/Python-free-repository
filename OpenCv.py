@@ -5,7 +5,7 @@ def nothing(x):
     pass
 
 cap = cv2.VideoCapture('Animasi640.mp4')
-cap.set(cv2.CAP_PROP_FRAME_WIDTH, 640)
+cap.set(cv2.CAP_PROP_FRAME_WIDTH, 540)
 cap.set(cv2.CAP_PROP_FRAME_HEIGHT, 480)
 
 cv2.namedWindow('Trackbar')
